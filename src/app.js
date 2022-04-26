@@ -1,6 +1,6 @@
 const yargs = require("yargs")
 
-const { addMovie, listMovie, listMovies } = require("./utils")
+const { addMovie, listMovies } = require("./utils")
 
 const app = (yargsObj) => {
     if (yargsObj.add) {
